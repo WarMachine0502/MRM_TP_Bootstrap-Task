@@ -29,8 +29,8 @@
 }
 
 #features .container{
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
 
 #features h3{
@@ -74,8 +74,9 @@
     font-family:'Architects Daughter';
 }
 
-#testimonials em{
+#testimonials span{
     font-family:'Secular One', sans-serif;
+    font-style: italic;
 }
 
 #testimonials img{
@@ -154,3 +155,4 @@
  #footer p{
     margin-top: 5px;
 }
+
