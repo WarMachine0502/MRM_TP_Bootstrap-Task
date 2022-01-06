@@ -22,7 +22,7 @@
     transform: rotate(25deg) translateY(4rem);
 }
 
-#title .p-5 .c1{
+#features .container{
     margin-top: 7rem;
     margin-bottom: 7rem;
 }
@@ -59,6 +59,10 @@
 #press{
     background-color: #ff5877;
     padding-bottom: 8rem;
+}
+
+#press .container{
+    max-width: 800px; 
 }
 
 #press img{
@@ -123,4 +127,3 @@
  #footer p{
     margin-top: 5px;
 }
-
