@@ -17,6 +17,11 @@
     margin-bottom: 15rem;
 }
 
+#title .coverimg{
+    width: 22rem;
+    transform: rotate(25deg) translateY(4rem);
+}
+
 .p-5 .c1{
     margin-top: 7rem;
     margin-bottom: 7rem;
@@ -69,6 +74,10 @@
     font-family:'Secular One', sans-serif;
 }
 
+#pricing .btn{
+    border:1px solid #91918F;
+}
+
 #call{
     background-color: #fb437b;
     height: 25rem;
@@ -113,13 +122,11 @@ body::before {
 
 
   
-.doggy{width: 22rem;
-    transform: rotate(25deg) translateY(4rem);
-}
+
   
 
   
-.sec{background-color: #fb437b;
+#title .overflow-hidden{background-color: #fb437b;
     height: 30rem;
 }
 
@@ -128,17 +135,6 @@ body::before {
     font-size:3rem;
     margin-bottom: 1.25rem;
 }
-  
-@media (min-width: 768px) and (max-width: 979px){
-    .doggy{transform: initial
-        ;width: 20rem;}
-  
-    .info{
-      margin-bottom: 2rem;
-    }
-  
-    .sec{
-      height: 62rem;
-    }
-}
+
+
 
