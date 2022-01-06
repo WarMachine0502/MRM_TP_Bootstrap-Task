@@ -1,0 +1,142 @@
+#title .nav{
+    background-color: #fb437b;
+}
+  
+
+#title .navbar-brand{
+    font-family:'Architects Daughter';
+    font-size: 3rem;
+}
+
+#title ul{
+    font-family:'Architects Daughter';
+}
+
+.p-5 .c1{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.p-5 .fa-3x{
+    color: #fb437b;
+}
+
+#testimonials .carousel{
+    background-color: #fb437b; height: 27rem; padding-top: 5rem;
+}
+
+#testimonials h2{
+    margin-left: 14rem;
+    margin-right: 14rem;
+    font-size: 3rem;
+    font-family:'Architects Daughter';
+}
+
+#testimonials em{
+    font-family:'Secular One', sans-serif;
+}
+
+#press{
+    background-color: #fb437b;
+    padding-bottom: 8rem;
+}
+
+#press img{
+    width: 11rem;
+}
+
+
+#pricing .container{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+#pricing h2{
+    font-family:'Secular One', sans-serif;
+}
+
+#pricing h3{
+    font-family:'Secular One', sans-serif;
+    margin-bottom: 3rem;
+}
+
+#pricing h1{
+    font-family:'Secular One', sans-serif;
+}
+
+#call{
+    background-color: #fb437b;
+    height: 25rem;
+}
+
+#call .container{
+    padding-top: 35px
+}
+
+#call h3{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-family: 'Architects Daughter';
+}
+
+#call .btn{
+    margin: 10px;
+}
+
+#footer{
+    height: 18rem;
+}
+
+#footer a{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    color: black;
+ }
+
+#footer .container{
+    padding-top: 100px;
+}
+ #footer p{
+    margin-top: 5px;
+}
+
+body::before {
+    display: block;
+    content: '';
+  }
+  
+
+
+  
+.doggy{width: 22rem;
+    transform: rotate(25deg) translateY(4rem);
+}
+  
+.info{ 
+    width: 30rem;
+    margin-bottom: 15rem;
+}
+  
+.sec{background-color: #fb437b;
+    height: 30rem;
+}
+
+.sec h1{
+    font-family: 'Acme', sans-serif;
+    font-size:3rem;
+    margin-bottom: 1.25rem;
+}
+  
+@media (min-width: 768px) and (max-width: 979px){
+    .doggy{transform: initial
+        ;width: 20rem;}
+  
+    .info{
+      margin-bottom: 2rem;
+    }
+  
+    .sec{
+      height: 62rem;
+    }
+}
+
