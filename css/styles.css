@@ -35,6 +35,12 @@
     height: 30rem;
 }
 
+#title .overflow-hidden h1{
+    font-family: 'Acme', sans-serif;
+    font-size:3rem;
+    margin-bottom: 1.25rem;
+}
+
 #testimonials .carousel{
     background-color: #fb437b; height: 27rem; padding-top: 5rem;
 }
@@ -121,22 +127,5 @@
 body::before {
     display: block;
     content: '';
-  }
-  
-
-
-  
-
-  
-
-  
-
-
-.sec h1{
-    font-family: 'Acme', sans-serif;
-    font-size:3rem;
-    margin-bottom: 1.25rem;
 }
-
-
 
