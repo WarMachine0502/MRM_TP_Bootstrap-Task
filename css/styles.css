@@ -81,7 +81,7 @@
 
 #testimonials img{
     border-radius: 50%;
-    width: 100px; 
+    width: 7rem; 
 }
 
 #press{
@@ -156,3 +156,61 @@
     margin-top: 5px;
 }
 
+@media (min-width: 979px) and (max-width: 1150px){
+    #testimonials h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+    #title .coverimg{
+        transform: initial;
+        width: 20rem;}
+  
+    .heading{
+      margin-bottom: 2rem;
+    }
+  
+    #title .overflow-hidden{
+      height: 62rem;
+    }
+    #testimonials h2{
+        font-size: 2rem;
+    }
+
+    #press img{
+        transform: scale(0.8);
+    }
+
+    #testimonials img{
+        border-radius: 50%;
+        width: 5rem; 
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px){
+    #testimonials h2{
+        font-size: 1.25rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    #testimonials span{
+        font-size: 0.75rem;
+    }
+    #press img{
+        transform: scale(0.7);
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 450px){
+    #testimonials h2{
+        font-size: 1.25rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #testimonials span{
+        font-size: 1rem;
+    }
+}
