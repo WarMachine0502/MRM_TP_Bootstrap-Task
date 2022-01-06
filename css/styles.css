@@ -42,7 +42,7 @@
 }
 
 #testimonials .carousel{
-    background-color: #fb437b; height: 27rem; padding-top: 5rem;
+    background-color: #ff5877; height: 27rem; padding-top: 5rem;
 }
 
 #testimonials h2{
@@ -57,7 +57,7 @@
 }
 
 #press{
-    background-color: #fb437b;
+    background-color: #ff5877;
     padding-bottom: 8rem;
 }
 
@@ -89,7 +89,7 @@
 }
 
 #call{
-    background-color: #fb437b;
+    background-color: #ff5877;
     height: 25rem;
 }
 
@@ -122,10 +122,5 @@
 }
  #footer p{
     margin-top: 5px;
-}
-
-body::before {
-    display: block;
-    content: '';
 }
 
