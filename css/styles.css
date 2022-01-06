@@ -45,6 +45,10 @@
     margin-bottom: 0;
 }
 
+#features i{
+    color:#ff5877;
+}
+
 #title .p-5 .fa-3x{
     color: #fb437b;
 }
