@@ -19,7 +19,7 @@
 
 #title .coverimg{
     width: 22rem;
-    transform: rotate(25deg) translateY(4rem);
+    transform: rotate(15deg) translateY(4rem) scale(1.2);
 }
 
 #title .gp{
@@ -119,22 +119,22 @@
     border:1px solid #91918F;
 }
 
-#call{
+#contact{
     background-color: #ff5877;
     height: 25rem;
 }
 
-#call .container{
+#contact .container{
     padding-top: 35px
 }
 
-#call h3{
+#contact h3{
     font-size: 3rem;
     margin-bottom: 40px;
     font-family: 'Architects Daughter';
 }
 
-#call .btn{
+#contact .btn{
     margin: 10px;
 }
 
