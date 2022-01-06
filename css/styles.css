@@ -22,9 +22,27 @@
     transform: rotate(25deg) translateY(4rem);
 }
 
+#title .gp{
+    background-color: #ff5877;
+    border: 1px solid white;
+    color: white;
+}
+
 #features .container{
     margin-top: 7rem;
     margin-bottom: 7rem;
+}
+
+#features h3{
+    font-family: 'Architects Daughter';
+}
+
+#features .card{
+    min-width: 25rem;
+}
+
+#features .desc{
+    margin-bottom: 0;
 }
 
 #title .p-5 .fa-3x{
@@ -54,6 +72,11 @@
 
 #testimonials em{
     font-family:'Secular One', sans-serif;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    width: 100px; 
 }
 
 #press{
