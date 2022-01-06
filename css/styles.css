@@ -12,6 +12,11 @@
     font-family:'Architects Daughter';
 }
 
+#title .heading{ 
+    width: 30rem;
+    margin-bottom: 15rem;
+}
+
 .p-5 .c1{
     margin-top: 7rem;
     margin-bottom: 7rem;
@@ -112,10 +117,7 @@ body::before {
     transform: rotate(25deg) translateY(4rem);
 }
   
-.info{ 
-    width: 30rem;
-    margin-bottom: 15rem;
-}
+
   
 .sec{background-color: #fb437b;
     height: 30rem;
