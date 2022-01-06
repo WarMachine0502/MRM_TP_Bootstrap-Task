@@ -1,5 +1,5 @@
 #title .nav{
-    background-color: #fb437b;
+    background-color: #ff5877;
 }
   
 
@@ -22,13 +22,17 @@
     transform: rotate(25deg) translateY(4rem);
 }
 
-.p-5 .c1{
+#title .p-5 .c1{
     margin-top: 7rem;
     margin-bottom: 7rem;
 }
 
-.p-5 .fa-3x{
+#title .p-5 .fa-3x{
     color: #fb437b;
+}
+
+#title .overflow-hidden{background-color: #ff5877;
+    height: 30rem;
 }
 
 #testimonials .carousel{
@@ -126,9 +130,7 @@ body::before {
   
 
   
-#title .overflow-hidden{background-color: #fb437b;
-    height: 30rem;
-}
+
 
 .sec h1{
     font-family: 'Acme', sans-serif;
